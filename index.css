@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4D1BAQFVhpNDW2MoTw/company-background_10000/0/1568658087480?e=2147483647&v=beta&t=tfkl7DDy_yWBAp5uvpcTiRe9YU3NHtFQF8fAgZ3LRM4");
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(231, 139, 20);
+    color: teal;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+#Weather {
+    width: 50%;
+    text-align: center;
+    margin: 30px auto;
+    background-color: white;
+}
+
+#Weather>div>img {
+    width: 70%;
+}
+
+#Weather>div {
+    font-size: 23px;
+}
+
+#Weather>div>h2 {
+    font-size: 30px;
+    color: rgb(59, 15, 57);
+}
